@@ -11,7 +11,7 @@ public class UserRepository {
 
     public UserRepository(List<User> userList) {
         this.userList = userList;
-        userList.add(new User("Adam" , "Kowalczyk", 25));
+        userList.add(new User("Adam", "Kowalczyk", 25));
         userList.add(new User("Zbyszek", "Polak", 18));
         userList.add(new User("Anna", "Stelmach", 33));
     }

@@ -33,5 +33,6 @@ public class UserController {
             result += user1.getFirstName() + " " + user1.getLastName()
                     + " " + user1.getAge() + "<br/>";
         }
+        return result;
     }
 }
